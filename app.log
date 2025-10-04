@@ -1,20 +1,8 @@
-2025-10-04 00:52:28,410 - INFO - Modelo cargado exitosamente
-2025-10-04 00:52:28,882 - INFO - Updating authtoken for default "config_path" of "ngrok_path": /root/.config/ngrok/ngrok
-2025-10-04 00:52:28,930 - INFO - Proceso del servidor Uvicorn iniciado.
-2025-10-04 00:52:34,919 - INFO - Updating authtoken for default "config_path" of "ngrok_path": /root/.config/ngrok/ngrok
-2025-10-04 00:52:34,997 - INFO - Opening tunnel named: http-8001-c8977f6a-6bca-4f71-a879-4ea09641a2ff
-2025-10-04 00:52:35,057 - INFO - t=2025-10-04T00:52:35+0000 lvl=info msg="no configuration paths supplied"
-2025-10-04 00:52:35,061 - INFO - t=2025-10-04T00:52:35+0000 lvl=info msg="using configuration at default config path" path=/root/.config/ngrok/ngrok.yml
-2025-10-04 00:52:35,066 - INFO - t=2025-10-04T00:52:35+0000 lvl=info msg="open config file" path=/root/.config/ngrok/ngrok.yml err=nil
-2025-10-04 00:52:35,105 - INFO - t=2025-10-04T00:52:35+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
-2025-10-04 00:52:35,294 - INFO - t=2025-10-04T00:52:35+0000 lvl=info msg="client session established" obj=tunnels.session
-2025-10-04 00:52:35,297 - INFO - t=2025-10-04T00:52:35+0000 lvl=info msg="tunnel session started" obj=tunnels.session
-2025-10-04 00:52:35,318 - INFO - t=2025-10-04T00:52:35+0000 lvl=info msg=start pg=/api/tunnels id=e5e2032c39d50499
-2025-10-04 00:52:35,325 - INFO - t=2025-10-04T00:52:35+0000 lvl=info msg=end pg=/api/tunnels id=e5e2032c39d50499 status=200 dur=892.707µs
-2025-10-04 00:52:35,329 - INFO - t=2025-10-04T00:52:35+0000 lvl=info msg=start pg=/api/tunnels id=69b69166f6de84c2
-2025-10-04 00:52:35,335 - INFO - t=2025-10-04T00:52:35+0000 lvl=info msg=end pg=/api/tunnels id=69b69166f6de84c2 status=200 dur=139.782µs
-2025-10-04 00:52:35,338 - INFO - t=2025-10-04T00:52:35+0000 lvl=info msg=start pg=/api/tunnels id=dff334c551130f5d
-2025-10-04 00:52:35,341 - INFO - t=2025-10-04T00:52:35+0000 lvl=info msg=end pg=/api/tunnels id=dff334c551130f5d status=200 dur=154.862µs
-2025-10-04 00:52:35,344 - INFO - t=2025-10-04T00:52:35+0000 lvl=info msg=start pg=/api/tunnels id=c937bb4c6542c861
-2025-10-04 00:52:35,389 - WARNING - t=2025-10-04T00:52:35+0000 lvl=warn msg="failed to start tunnel" pg=/api/tunnels id=c937bb4c6542c861 err="failed to start tunnel: The endpoint 'https://loretta-unmitigative-ideally.ngrok-free.dev' is already online. Either\n1. stop your existing endpoint first, or\n2. start both endpoints with `--pooling-enabled` to load balance between them.\r\n\r\nERR_NGROK_334\r\n"
-2025-10-04 00:52:35,393 - INFO - t=2025-10-04T00:52:35+0000 lvl=info msg=end pg=/api/tunnels id=c937bb4c6542c861 status=502 dur=56.734171ms
+2025-10-04 00:56:51,814 - INFO - Modelo cargado exitosamente
+2025-10-04 00:56:52,220 - INFO - Updating authtoken for default "config_path" of "ngrok_path": /root/.config/ngrok/ngrok
+2025-10-04 00:56:52,280 - INFO - Proceso del servidor Uvicorn iniciado.
+2025-10-04 00:56:57,669 - INFO - Updating authtoken for default "config_path" of "ngrok_path": /root/.config/ngrok/ngrok
+2025-10-04 00:56:57,719 - INFO - Opening tunnel named: http-8001-ac0d1901-262e-45e5-863f-5136865a98f4
+2025-10-04 00:56:57,724 - INFO - t=2025-10-04T00:56:57+0000 lvl=info msg=start pg=/api/tunnels id=194c57435d58a33b
+2025-10-04 00:56:57,823 - INFO - t=2025-10-04T00:56:57+0000 lvl=info msg="started tunnel" obj=tunnels name=http-8001-ac0d1901-262e-45e5-863f-5136865a98f4 addr=http://localhost:8001 url=https://loretta-unmitigative-ideally.ngrok-free.dev
+2025-10-04 00:56:57,831 - INFO - t=2025-10-04T00:56:57+0000 lvl=info msg=end pg=/api/tunnels id=194c57435d58a33b status=201 dur=98.117671ms
