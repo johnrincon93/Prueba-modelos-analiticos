@@ -1,0 +1,150 @@
+{
+	"info": {
+		"_postman_id": "3ae48eb3-27b4-45aa-8bcd-9d9dec0b22b6",
+		"name": "Prediccion Credito",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16279244"
+	},
+	"item": [
+		{
+			"name": "https://loretta-unmitigative-ideally.ngrok-free.dev/predict",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"edad\": 25,\n    \"ingresos\": 12000.0,\n    \"deudas\": 4000,\n    \"historial_credito\": 0.95,\n    \"cantidad_prestamos\": 2\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://loretta-unmitigative-ideally.ngrok-free.dev/predict",
+					"protocol": "https",
+					"host": [
+						"loretta-unmitigative-ideally",
+						"ngrok-free",
+						"dev"
+					],
+					"path": [
+						"predict"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://loretta-unmitigative-ideally.ngrok-free.dev/health",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"edad\": 25,\n    \"ingresos\": 2000.0,\n    \"deudas\": 4000,\n    \"historial_credito\": 0.1,\n    \"cantidad_prestamos\": 7\n}"
+				},
+				"url": {
+					"raw": "https://loretta-unmitigative-ideally.ngrok-free.dev/health",
+					"protocol": "https",
+					"host": [
+						"loretta-unmitigative-ideally",
+						"ngrok-free",
+						"dev"
+					],
+					"path": [
+						"health"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://loretta-unmitigative-ideally.ngrok-free.dev/metrics",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"edad\": 25,\n    \"ingresos\": 2000.0,\n    \"deudas\": 4000,\n    \"historial_credito\": 0.1,\n    \"cantidad_prestamos\": 7\n}"
+				},
+				"url": {
+					"raw": "https://loretta-unmitigative-ideally.ngrok-free.dev/metrics",
+					"protocol": "https",
+					"host": [
+						"loretta-unmitigative-ideally",
+						"ngrok-free",
+						"dev"
+					],
+					"path": [
+						"metrics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://loretta-unmitigative-ideally.ngrok-free.dev/logs",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"edad\": 25,\n    \"ingresos\": 2000.0,\n    \"deudas\": 4000,\n    \"historial_credito\": 0.1,\n    \"cantidad_prestamos\": 7\n}"
+				},
+				"url": {
+					"raw": "https://loretta-unmitigative-ideally.ngrok-free.dev/logs",
+					"protocol": "https",
+					"host": [
+						"loretta-unmitigative-ideally",
+						"ngrok-free",
+						"dev"
+					],
+					"path": [
+						"logs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://loretta-unmitigative-ideally.ngrok-free.dev/predict",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"edad\": 25,\n    \"ingresos\": 12000.0,\n    \"deudas\": 4000,\n    \"historial_credito\": 0.95,\n    \"cantidad_prestamos\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://loretta-unmitigative-ideally.ngrok-free.dev/predict",
+					"protocol": "https",
+					"host": [
+						"loretta-unmitigative-ideally",
+						"ngrok-free",
+						"dev"
+					],
+					"path": [
+						"predict"
+					]
+				},
+				"description": "peticion sin riesgo"
+			},
+			"response": []
+		}
+	]
+}
